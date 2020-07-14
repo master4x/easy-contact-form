@@ -4,6 +4,8 @@
 
 easy-contact-form is a an easy HTML contact form with configured PHP script build in
 
+![alt text](https://i.imgur.com/BMqzLLu.png)
+
 # Features
 
   - Frontend: [HTML] website with contact form
