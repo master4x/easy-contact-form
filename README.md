@@ -43,7 +43,7 @@ To edit the message body edit the following textfields *(line 46, 49, 52, 55, 58
 58  $Body .= "Message: ";
 ```
 
-**If you want to migrate the form to another website simply copy the code between ´<form>´ (line 34) and ´</form>´ (line 67), including the form tags itselfs.**
+**If you want to migrate the form to another website simply copy the code between `<form>` (line 34) and `</form>` (line 67), including the form tags itselfs.**
 
 ### Build
 
