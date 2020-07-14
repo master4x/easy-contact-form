@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Contact form</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header id="home">
+
+      <!-- contact -->
+      <div id="contact" class="contact segments">
+        <div class="container">
+          <div class="box-content">
+            <div class="row">
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="content-left">
+                  <div class="section-title section-title-left">
+                    <h3>Example</h3>
+                  </div>
+                  <div class="title-resume">
+                    <h2>Contact Me!</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="content-right">
+                  <form id="contactForm" class="contact-form" action="contact.php" method="post">
+                    <div class="row">
+                      <div class="col">
+                        <div id="first-name-field">
+                          <input type="text" id="firstname" name="firstname" class="form-control" placeholder="First Name">
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div id="last-name-field">
+                          <input type="text" id="lastname" name="lastname" class="form-control" placeholder="Last Name">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div id="email-field">
+                          <input type="email" id="email" name="email" class="form-control" placeholder="E-Mail">
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div id="subject-field">
+                          <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div id="message">
+                          <textarea id="message" name="message" class="form-control" placeholder="Message" cols="30" rows="5"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <input class="button" type="submit" value="Send">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end contact -->
+
+    </body>
+  </html>
