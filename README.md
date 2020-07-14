@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-easy-contact-form is a an easy HTML contact form with configured php script build in
+easy-contact-form is a an easy HTML contact form with configured PHP script build in
 
 # Features
 
