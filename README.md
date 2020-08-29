@@ -54,7 +54,7 @@ The shown template website is free to use (under MIT license) and is made with b
 _Parts of this work contain files out of forums_
 
 #### License
-This code is under MIT licence, you can find the complete file here: www.mylicencefile.com
+This code is under MIT license.
 
 Copyright 2020 github.com/master4x
 
